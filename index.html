@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ٌGuess Number</title>
+   <!--FONTAWESOME CDN-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+   <!--Scroll reveal CDN-->
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    
+</head>
+<body >
+    
+  
+  <div class="card card_div ">
+    <div class="card-body">
+      <h1>Number guessing game</h1>
+        <h5 class="content"> Enter a random number</h5>
+    </br>
+    <div id="wrapper">
+      <form class="form">
+        <label for="guessField" id="guess">Guess a number ?</label>
+        <input type="number" id="guessField">
+        <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+        <input type="submit" id="restart" value="Restart game" class="restartSubmit">
+      </form>
+
+      <div class="resultparas">
+        <p class="last_p">Previous Guesses: <span class="guesses"></span></p>
+        <p class="last_p">Guess Remaining: <span class="lastResult"> 10</span></p>
+       <p class="lowOrHi"></p>
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+  </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
